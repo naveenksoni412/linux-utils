@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Change Backgrounds
+Comment=Change wallpaper, lock screen, and login screen
+Exec=/home/naveenksoni411/HailTheAlmighty/linux-utils/change-all-backgrounds.sh
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;
+Name[en_US]=Change All Backgrounds
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Fix Headsets Audio
+Exec=/home/naveenksoni/HailTheAlmighty/headsets_profile_toggle.sh
+Icon=audio-headset
+Type=Application
+Terminal=false
+Categories=Utility;
+Comment=Nudges the EPOS BTD 800 back to Pro Audio mode

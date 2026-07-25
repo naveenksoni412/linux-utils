@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Keep Headset Alive
+Comment=Play silent audio to keep Bluetooth headset active
+Exec=/usr/bin/python3 /home/naveenksoni412/HailTheAlmighty/linux-utils/keep-headsets-alive-tray.py
+Icon=/home/naveenksoni412/icons/headset-on.png
+X-GNOME-Autostart-enabled=true
+Terminal=false
+Categories=Utility;

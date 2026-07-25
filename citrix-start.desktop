@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Citrix Custom Launcher
+Comment=Launch Citrix Cleanly
+Exec=/home/naveenksoni/HailTheAlmighty/citrix-start.sh %f
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;
+
