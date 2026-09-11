@@ -1,7 +1,7 @@
 # linux-utils
 Linux Utils
 
-# Debian KDE and Fedora KDE
+# Debian KDE, Kubuntu and Fedora KDE
 These are by far the most stable, fast, modern desktops. 
 ======= adding at top again ===== of all the linux distros I have used - reiterating -- Debian KDE and Fedora KDE  are the most modern, polished, stable and easy to use linux. Everything works out of the box. Then linux-mint and ubuntu-mate. 
 
@@ -23,6 +23,9 @@ These are by far the most stable, fast, modern desktops.
 * THermald (apt install thermald, and keep it running - its good for laptop heat )
 * install pipx
 * cameractrls (this controls resolution/crop/zoom of camera feeds - nice)
+* Any issues with citrix + external Camera ---> this is citrix version issue, the following combination works:
+*     Citrix (https://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-linux/workspace-app-for-linux-2604.html)  THE VERSION JUST AFTER THAT BROKE SOMETHING
+*     And make sure that ZOOM VDI matches the version of ZOOM in NDS -- and VDI tab in zoom settings from within NDS shows the version and connection status.
 
 
 Fedora KDE Tweaks (Debian KDE didn't even need these tweaks)
