@@ -1,9 +1,9 @@
 # linux-utils
 Linux Utils
 
-# Debian KDE, Kubuntu, Fedora KDE and MX Linux KDE (MX Linux is by far the most feature full and polished)
+# Debian KDE, Kubuntu and MX Linux KDE (MX Linux is by far the most feature full and polished)
 These are by far the most stable, fast, modern desktops. 
-======= adding at top again ===== of all the linux distros I have used - reiterating -- Debian KDE and Fedora KDE  are the most modern, polished, stable and easy to use linux. Everything works out of the box. Then linux-mint and ubuntu-mate. 
+======= adding at top again ===== of all the linux distros I have used - reiterating -- Debian KDE, Kubuntu and MX Linux  are the most modern, polished, stable and easy to use linux. Everything works out of the box. Then linux-mint and ubuntu-mate. 
 
 * zoom
 * citrix plugin
@@ -68,7 +68,7 @@ https://github.com/nsthethunderbolt/givingmybestwithgodsgrace
 
 
 
-# For headsets/audio issue (not required on Fedora KDE)
+# For headsets/audio issue (not required for debian kde, kubuntu and mx linux)
 ### the following creates a silent wav file
 ffmpeg -f lavfi -i anullsrc=r=8000:cl=mono -t 10 -acodec pcm_u8 silence.wav
 ### the following uns it infinitely, which avoids any headsets sleep etc
