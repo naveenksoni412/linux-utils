@@ -23,8 +23,8 @@ These are by far the most stable, fast, modern desktops.
 * THermald (apt install thermald, and keep it running - its good for laptop heat )
 * install pipx
 * cameractrls (this controls resolution/crop/zoom of camera feeds - nice)
-* install gitea for obsidian setup , follow hailthealmighty guide
-* install docker and pihole for adblocking - follow this: 
+* install ssh,gitea for obsidian+git setup - follow hailthealmighty guide
+* for nginx-setup [nginx-setup.md]
 * Any issues with citrix + external Camera ---> this is citrix version issue, the following combination works:
 *     Citrix (https://www.citrix.com/downloads/workspace-app/legacy-workspace-app-for-linux/workspace-app-for-linux-2604.html)  THE VERSION JUST AFTER THAT BROKE SOMETHING
 *     And make sure that ZOOM VDI matches the version of ZOOM in NDS -- and VDI tab in zoom settings from within NDS shows the version and connection status.

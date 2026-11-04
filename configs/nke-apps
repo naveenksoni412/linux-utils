@@ -1,0 +1,35 @@
+server {
+    listen 1411 ssl;
+    server_name hailthealmighty.dedyn.io;
+
+    # Hand your Let's Encrypt keys directly to Nginx
+    ssl_certificate /etc/letsencrypt/live/hailthealmighty.dedyn.io/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/hailthealmighty.dedyn.io/privkey.pem;
+
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers HIGH:!aNULL:!MD5;
+
+    # 1. Route the '/git/' subpath straight to Gitea
+    location /git/ {
+        proxy_pass http://127.0.0.1:3000/;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+    }
+
+    # 2. Route your future Python application subpath
+    location /tracker/ {
+        proxy_pass http://127.0.0.1:4444/; # Assuming your Python app runs on port 5000
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+
+    }
+}
+
