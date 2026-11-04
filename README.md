@@ -31,7 +31,7 @@ These are by far the most stable, fast, modern desktops.
 
 
 Fedora KDE Tweaks (Debian KDE didn't even need these tweaks)
-    1. for citrix - in case any issues, just refer the uploaded wfclient.ini file.
+    1. for citrix - in case any issues, just refer the uploaded [wfclient.ini file](configs/wfclient.ini) file.
     2. for citrix clean launch (if it doesn't launch cleanly , issue with latest kernel - not with fedora, but can be easily fixed )  :  use the attached citrix-start.sh and citrix-start.desktop files, and associate .ica files to launch with this .desktop file, done.
     3. for epos wireless headsets - although they work better in Fedora compared to other distros , but can easily fix it to be rock solid, follow next steps:
     3.a. upload these pipewire sticks configuraiton for Citrix ZOOM , copy the following 2 files, in this folder, as shown (the files are checked in )
